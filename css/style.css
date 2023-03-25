@@ -1,9 +1,15 @@
 /********** Template CSS **********/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 :root {
     --primary: #F3BD00;
     --secondary: #757575;
     --light: #F3F6F8;
     --dark: #0C2B4B;
+    
+    
 }
 
 .py-6 {
@@ -89,10 +95,11 @@
 }
 
 .navbar .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
     margin-right: 30px;
     padding: 25px 0;
     color: var(--dark);
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     outline: none;
 }
@@ -470,7 +477,6 @@
 .counter-box.colored .counter {
 	color: #fff
 }
-
 
 .statistic-section {
     padding-top: 70px;
